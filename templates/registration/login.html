@@ -1,0 +1,9 @@
+<p style="text-align: center">Built by 200050024-200050155</p>
+<font size = "10"><p style="text-align: center",><strong>Welcome to Github Profiles!</strong></p></font><br />
+<h2>Log In</h2>
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Log In</button>
+
+</form>

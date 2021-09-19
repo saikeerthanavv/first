@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+
+  <p style="text-align: center">Built by 200050024-200050155</p>
+  <font size = "10"><p style="text-align: center",><strong>Welcome to Github Profiles!</strong></p></font><br />
+  <br>
+  User name:{{profile_name}}
+  <br>
+  Last updated:{{last_updated}}
+  Followers:{{followers}}
+  {{a}}
+  {% for key, value in dict %}
+  <tr><br>
+  <td> {{ key }} : </td>
+  <td> {{value}} stars </td>
+  </tr>
+  {% endfor %}
+
+  
+{% endblock %}

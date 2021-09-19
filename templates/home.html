@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<p style="text-align: center">Built by 200050024-200050155</p>
+<font size = "10"><p style="text-align: center",><strong>Welcome to Github Profiles!</strong></p></font><br />
+{% if user.is_authenticated %}
+  <form method="get" action="/accounts/logout"><button type="submit">Log out</button></form>
+  <form method="get" action="/accounts/explore"><button type="submit">Explore</button></form>
+  <form method="get" action="/accounts/profile"><button type="submit">Profile</button></form>
+
+{% else %}
+  <div style="position: absolute; left:1000px; top:300px ;"></div><form method="get" action="/accounts/login"><button type="submit">Log in</button></form></div>
+  <form method="get" action="/accounts/signup"><button type="submit">Sign up</button></form>
+
+{% endif %}
+{% endblock %}

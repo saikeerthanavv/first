@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Explore{% endblock %}
+
+
+{% block content %}
+  <p style="text-align: center">Built by 200050024-200050155</p>
+  <font size = "10"><p style="text-align: center",><strong>Welcome to Github Profiles!</strong></p></font><br />
+  {% for key, value in links %}
+  <tr><br>
+  <td> <a href={{value}}>{{key}}</a></td>
+  </tr>
+  {% endfor %}
+    
+{% endblock %}
