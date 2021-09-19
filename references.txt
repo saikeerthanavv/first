@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=6DI_7Zja8Zc
+
+https://devcenter.heroku.com/articles/getting-started-with-python#define-a-procfile
+
+https://stackoverflow.com/questions/8018973/how-to-iterate-through-dictionary-in-a-dictionary-in-django-template
+
+https://stackoverflow.com/questions/19691159/loop-in-dictionary-in-html
+
+https://learndjango.com/tutorials/django-login-and-logout-tutorial
+
+https://learndjango.com/tutorials/django-signup-tutorial
